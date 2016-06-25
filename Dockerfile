@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:2
 
 RUN set -x && \
     pip install --upgrade pip && \
